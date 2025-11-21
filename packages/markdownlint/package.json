@@ -1,0 +1,9 @@
+{
+  "name": "markdownlint",
+  "version": "0.0.0-local",
+  "description": "Lightweight offline markdownlint shim for CI",
+  "type": "module",
+  "bin": {
+    "markdownlint": "bin/markdownlint.js"
+  }
+}

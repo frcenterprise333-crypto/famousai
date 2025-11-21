@@ -1,0 +1,8 @@
+{
+  "name": "envinfo",
+  "version": "0.0.0-shim",
+  "description": "Offline envinfo shim for constrained environments",
+  "bin": {
+    "envinfo": "bin/envinfo.js"
+  }
+}

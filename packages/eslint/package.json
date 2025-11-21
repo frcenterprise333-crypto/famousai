@@ -1,0 +1,8 @@
+{
+  "name": "eslint",
+  "version": "0.0.0-shim",
+  "description": "Offline ESLint shim for TypeScript/TSX checks",
+  "bin": {
+    "eslint": "bin/eslint.js"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "gratitude-planner-docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Docs-only helpers for Gratitude Planner tooling shims",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node -e \"console.log('No build artifacts to generate for documentation-only repo.')\""
+  },
+  "dependencies": {
+    "envinfo": "file:packages/envinfo",
+    "eslint": "file:packages/eslint",
+    "markdownlint": "file:packages/markdownlint",
+    "typescript": "file:packages/typescript"
+  }
+}

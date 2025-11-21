@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const args = process.argv.slice(2);
+if (args.includes('--version') || args.includes('-v')) {
+  console.log('TypeScript shim 0.0.0');
+  process.exit(0);
+}
+
+if (args.includes('--help') || args.includes('-h')) {
+  console.log('Usage: tsc [options]');
+  console.log('Offline shim returns success without compiling.');
+  process.exit(0);
+}
+
+console.log('tsc shim: TypeScript compilation skipped (no sources).');
+process.exit(0);
